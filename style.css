@@ -363,6 +363,10 @@ nav.mobile-view {
   }
   .hero-typo {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .headings {
     padding: 10px;
