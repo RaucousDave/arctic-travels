@@ -372,6 +372,7 @@ nav.mobile-view {
   }
   p {
     font-size: 1.2rem !important;
+    margin-bottom: 10px;
   }
   .contact {
     padding: 2rem;
@@ -381,6 +382,17 @@ nav.mobile-view {
   }
   .grid {
     padding: 2rem;
+    gap: 20px;
+  }
+  .carousel {
+    padding: 10px;
+  }
+  .slider {
+    overflow: auto;
+  }
+  .slider-wrapper {
+    max-width: 40rem;
+    margin-bottom: 2rem;
   }
 }
 
