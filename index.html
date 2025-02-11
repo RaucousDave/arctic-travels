@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARCTIC TRAVELS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="hero">
+      <nav class="desktop">
+        <div class="logo">ARCTIC TRAVELS</div>
+        <ul class="desktop-menu">
+          <li><a href="#" class="navlinks">HOME</a></li>
+          <li><a class="navlinks" onclick="regions()">REGIONS</a></li>
+          <li><a class="navlinks" onclick = "resorts()">RESORTS</a></li>
+          <li><a class="navlinks" onclick="passes()">PASSES</a></li>
+          <li><a class="navlinks" onclick="contact()">CONTACT</a></li>
+        </ul>
+      </nav>
+      <nav class="mobile-view">
+        <h1 class="logo">ARCTIC TRAVELS</h1>
+        <button class="menu-toggle" onclick="sidebar()">&#9776;</button>
+        <!-- Hamburger Icon -->
+        <ul class="mobile-menu">
+          <li><a href="#" class="navlinks">HOME</a></li>
+          <li><a class="navlinks" onclick="regions()">REGIONS</a></li>
+          <li><a class="navlinks" onclick = "resorts()">RESORTS</a></li>
+          <li><a class="navlinks" onclick="passes()">PASSES</a></li>
+          <li><a class="navlinks" onclick="contact()">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="hero-container" id="hero">
+        <div class="hero-typo">
+          <h1>Plan the perfect winter trip</h1>
+          <p>
+            Easily plan your ideal ski trip from home with the help of
+            professionals
+          </p>
+          <button>BOOK HERE</button>
+        </div>
+      </div>
+    </section>
+    <section class="bookings">
+      <div class="bookings-box">
+        <div class="regions hidden">
+          <div class="headings heading-1">
+            <h1>REGIONS</h1>
+            <p>
+              Discover the most breathtaking ski and snowboarding regions
+              worldwide, each offering unique terrains, stunning landscapes, and
+              winter activities. Whether you’re looking for powder-filled
+              backcountry trails or well-groomed ski slopes, we have the perfect
+              destination for you.
+            </p>
+          </div>
+          <div class="grid carousel">
+            <div class="slider-wrapper">
+              <div class="slider">
+                  <img
+                    id="slide-1"
+                    src="https://media.istockphoto.com/id/172369233/photo/aiguille-verte-and-the-mont-blanc-massif.webp?a=1&b=1&s=612x612&w=0&k=20&c=idDVXUrPzXsPoVwUA-dLQ15w6Yq_iIdmmftCC3bIM7A="
+                    alt=""
+                  />
+                  <img
+                    id="slide-2"
+                    src="https://media.istockphoto.com/id/926750858/photo/mont-blanc-above-the-clouds.webp?a=1&b=1&s=612x612&w=0&k=20&c=nGuT66ggwtcuNwtSyeov5HalND4DbleXa-ahQ4BOaZ0="
+                    alt=""
+                  />
+                  <img
+                    src="https://images.unsplash.com/photo-1550134400-43b46f9b9918?w=1900&auto=format&fit=crop&q=100&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoYW1vbml4fGVufDB8fDB8fHww"
+                    alt=""
+                    id="slide-3"
+                  />
+                    <img
+                      src="https://media.istockphoto.com/id/1169601276/photo/snow-ski-activity-at-mount-yotei-niseko-hokkaido-japan.webp?a=1&b=1&s=612x612&w=0&k=20&c=A-CnYaoWv-XGUtDYygJDoifVZrkzzpbuSKhbMY5l_cw="
+                      alt=""
+                      id="slide-4"
+                    />
+                    <img
+                      src="https://plus.unsplash.com/premium_photo-1673254928968-b6513f32d43b?w=1900&auto=format&fit=crop&q=100&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8emVybWF0dHxlbnwwfHwwfHx8MA%3D%3D"
+                      alt=""
+                      id="slide-5"
+                    />
+                </div>
+                  <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                    <a href="#slide-5"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lodgings hidden">
+                <div class="headings heading-1">
+                    <h1>LODGINGS</h1>
+                    <p>Stay in cozy, high-end accommodations tailored to your comfort and needs. Choose from a wide range of lodging options, including luxury ski-in/ski-out resorts, charming alpine chalets with breathtaking views, and budget-friendly lodges for adventure seekers. Whether you’re looking for a family-friendly stay, a romantic getaway, or an adrenaline-packed ski trip, we have the perfect lodging for you
+                    </p>
+                  </div>
+                  <div class="grid carousel">
+                    <div class="slider-wrapper">
+                      <div class="slider " >
+                          <img
+                            id="slide-1"
+                            src="https://images.unsplash.com/photo-1550503736-c1a2c9033c03?w=1900&auto=format&fit=crop&q=100&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpJTIwcmVzb3J0fGVufDB8fDB8fHww"
+                            alt=""
+                          />
+                          <img
+                            id="slide-2"
+                            src="https://media.istockphoto.com/id/538277557/photo/val-dis%C3%A8re-city.webp?a=1&b=1&s=612x612&w=0&k=20&c=VlOADTm_ui1o8NEC2qtg2EKY7_yUPDu3HXOES6kr8q0="
+                            alt=""
+                          />
+                          <img
+                            src="https://plus.unsplash.com/premium_photo-1661880010603-28d31dc051d3?w=1900&auto=format&fit=crop&q=100&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cnVzdGljJTIwY2hhbGV0fGVufDB8fDB8fHww"
+                            alt=""
+                            id="slide-3"
+                          />
+                            <img
+                              src="https://plus.unsplash.com/premium_photo-1738078691483-8aa2b8090f98?w=1900&auto=format&fit=crop&q=100&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraSUyMHNwcmluZ3xlbnwwfHwwfHx8MA%3D%3D"
+                              alt=""
+                              id="slide-4"
+                            />
+                            <img
+                              src="https://plus.unsplash.com/premium_photo-1670963964797-942df1804579?w=1900&auto=format&fit=crop&q=100&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c25vd3klMjBjYWJpbnxlbnwwfHwwfHx8MA%3D%3D"
+                              alt=""
+                              id="slide-5"
+                            />
+                        </div>
+                          <div class="slider-nav">
+                            <a href="#slide-1"></a>
+                            <a href="#slide-2"></a>
+                            <a href="#slide-3"></a>
+                            <a href="#slide-4"></a>
+                            <a href="#slide-5"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="resorts hidden">
+                        <div class="headings">
+                            <h1>RESORTS</h1>
+                            <p>Experience world-class ski resorts that offer exceptional trails, modern lifts, and high-quality amenities. Our resorts cater to all skill levels, from beginner-friendly slopes to challenging runs for seasoned skiers and snowboarders. Beyond skiing, enjoy fine dining, entertainment, and wellness facilities that make your winter vacation truly unforgettable</p>
+                        </div>
+                        <div class="resort grid">
+                            <div class="resort-img">
+                                <img src="https://api.ellecanada.com/app/uploads/2024/12/Reve-hiver-sur-les-pistes-de-Whistler-Blackcomb.jpg" alt="">
+                                <h1  class = "resort-name">Whistler Blackcomb, Canada</h1>
+                            </div>
+                            <div class="resort-img">
+                              <img src="https://www.skiresorts.net/wp-content/uploads/2023/01/st-moritz_corviglia.jpg" alt="">
+                              <h1  class = "resort-name">St Moritz, Switzerland</h1>
+                          </div>
+                          <div class="resort-img">
+                            <img src="https://media.istockphoto.com/id/1896279345/photo/nice-winter-day-on-ski-slope-in-colorado-ski-resort-near-aspen-colorado-with-skiers-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=V0BY6EdNE38MS7srmJQBEIKZobAqMTxuBckNzSAZYiw=" alt="">
+                            <h1  class = "resort-name">Aspen, Colorado, USA</h1>
+                        </div>
+
+          <div class="resort-img">
+            <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/349000/349600-Flims.jpg" alt="">
+            <h1  class = "resort-name">Laax, Switzerland</h1>
+        </div>
+          </div>
+                </div>
+                        </div>
+                        <section class="passes hidden">
+                          <div class = 'heading'><h1>PASSES</h1></div>
+                          <div class="passes-container grid">
+                            <div class="grid-item">
+                              <h1>Single-Day Pass</h1>
+                              <p>Ideal for visitors planning a short trip</p>
+                              <p>Provides full-day access to ski lifts within the resort</p>
+                            </div>
+                            <div class="grid-item">
+                              <h1>Multi-Day Pass</h1>
+                              <p>Perfect for travelers staying for several days</p>
+                              <p>Usually offers discount for extended durations</p>
+                            </div>
+                            <div class="grid-item">
+                              <h1>Season Pass</h1>
+                              <p>Best for frequent skiers who plan to visit multiple times during the season</p>
+                              <p>Grants unlimited acccess through the winter season</p>
+                            </div>
+                          </div>
+                          <button>GET PASSES</button>
+                        </section>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact hidden">
+      <h1>CONTACT US</h1>
+      <form>
+        <label for="name">NAME</label>
+        <input type="text" name="" id="name">
+        <label for="telephone">PHONE NUMBER</label>
+        <input type="tel" name="" id="telephone">
+        <label for="email">EMAIL</label>
+        <input type="email" name="" id="email">
+        <input type="submit" value="SUBMIT">
+      </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
